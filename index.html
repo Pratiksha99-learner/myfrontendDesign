@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>CSS Website Layout</title>
+
+
+<style>
+body {
+  margin: 0;
+      background-image: url("images/luly.jpg");
+}
+
+
+.header {
+     background-color: gray;
+     
+    padding: 47px;
+}
+
+ul {
+     margin:20px;
+    list-style-type: none;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align:center;
+    margin: 0;
+    padding: 0;
+    width: 300px;
+    background-color: #f1f1f1;
+}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+li a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+table
+  {
+ 
+   margin-left:340px;
+   width:70%;
+   
+   }
+td {color:#421E00;
+     font-family:sans-serif;
+     padding:15px;
+    }
+th
+{
+ letter-spacing: 2px;
+ text-shadow: 3px 2px 5px #984E16;
+ background-color:dodgerblue;
+ color:white;
+ font-family:sans-serif;
+ padding:20px;
+}
+
+#rcorners1 {
+    border-radius: 25px;
+    background: #58210e;
+    color:white;
+    padding: 20px; 
+    width: 170px;
+    height: 150px;
+    margin: auto;
+    border: 1px solid gray;
+    padding: 8px; 
+}
+
+#rcorners3 {
+    border-radius: 25px;
+    background: url(paper.gif);
+    background-position: left top;
+    background-repeat: repeat;
+    padding: 20px; 
+    width: 200px;
+    height: 150px;    
+}
+
+
+
+
+
+
+.pos{
+   position:absolute;left:350px;top:380px;
+   
+}
+
+
+
+
+#myDIV {
+    
+    outline: 1px solid black;
+    -webkit-animation: mymove 5s infinite; /* Chrome, Safari, Opera */
+    animation: mymove 5s infinite;
+}
+/* Chrome, Safari, Opera */
+@-webkit-keyframes mymove {
+    50% {outline: 15px solid #f08080;}
+}
+
+
+
+.footer {
+     background-color: gray;
+    padding: 30px;
+    text-align: center;
+}
+
+</style>
+</head>
+<body>
+
+<div class="header">
+<i class="fa fa-envelope"  style="float:left;color:white;"></i>
+<a style="color:white;float:left;margin-left:4px;"< a href="https://accounts.google.com/">joshigajananr@gmail.com</a>
+<a href="https://www.facebook.com/login.php?login_attempt=1&lwv=110"><i style="float:right;font-size:33px;color:#2e2ed1;padding:8px;margin-bottom:5px;" class="fa fa-facebook-square"></i></a>
+<a href="https://www.youtube.com/watch?v=I7x6f-FxZuo"><i class="fa fa-youtube-play" style="font-size:33px;color:red;float:right;padding:8px;"></i></a>
+<a href="https://twitter.com/login"><i class="fa fa-twitter" style="font-size:33px;color:DodgerBlue;padding:8px;float:right;"></i></a>
+<a href="https://www.google.co.in/?gfe_rd=cr&dcr=0&ei=K6FPWsCfGOaR8QeYi4r4Dw"><i class="fa fa-globe" style="font-size:33px;float:right;color:white;padding:8px;"></i></a>
+</div><br><br>
+
+
+<center>
+<img src="images/psps.jpg" style="margin-left:25px;float:left;"height=80 width=80 >
+<b><h2 style="color:tomato; letter-spacing:3px;line-height:2px">
+VIDYA PRATISHTHAN'S </h2>
+<h1 style="color:tomato;
+                 letter-spacing:3px;
+                 line-height:2px">ARTS ,SCIENCE AND COMMERCE COLLEGE,</h1>
+<h2 style="color:tomato;
+                 letter-spacing:3px;
+                 line-height:2px;">VIDYANAGARI BARAMATI(Pune)</h2></b></center><br>
+
+
+<div style="background-color:#B2D732";><CENTER>
+<font size=10 style="
+padding:10px;color:darkmagenta;
+text-shadow:2px 2px 4px #000000;
+letter-spacing: 4px;">DEPARTMENT OF COMPUTER  SCIENCE</font></CENTER><br><br><br<br></div>
+
+
+<marquee direction="left" style="margin-top:10px; color:brown; background-color:#ffaa00;"><b>Departement of computer science has acheived best department award of the year 2016-2017.</b></marquee>
+
+
+<ul style="margin:30px;">
+  <li><a class="active" href="history.html" class="pos">Home</a></li>
+  <li><a href="#news">About</a></li>
+  <li><a href="#contact">Staff</a></li>
+  <li><a href="#about">Course</a></li>
+  <li><a href="#about">Facilities</a></li>
+  <li><a href="#about">Co-Curricular activities</a></li>
+<li><a href="#about">Alumni</a></li>
+<li><a href="#about">Students Corner</a></li>
+  <li><a href="#about">Result</a></li>
+  <li><a href="#about">Achievement</a></li>
+  <li><a href="#about">Research</a></li>
+</ul>
+
+
+<p class="pos" style="box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
+  <marquee direction="right">
+<img src="images\IMG-20180105-WA0021.jpg" height=370 width=600 >
+ <img src="images\IMG-20180105-WA0023.jpg" height=370 width=600>
+<img src="images\IMG-20180105-WA0015.jpg" height=370  width=600>
+<img src="images\IMG-20180105-WA0018.jpg" height=370  width=600>
+<img src="images\IMG-20180105-WA0019.jpg" height=370  width=600>
+<img src="images\cslab.jpg" height=370  width=600>
+<img src="images\011.png" height=370  width=600>
+<img src="images\390.jpg" height=370  width=600>
+<img src="images\sub.jpg" height=370  width=600>
+<img src="images\com.jpg" height=370  width=600>
+<img src="images\cse4.jpg" height=370  width=600>
+</marquee>
+</p>
+<br><br>
+
+
+<font size=6 style="margin-left:40px;color:MediumOrchid ;"><i><b>Latest updates</b></i></font>
+<div  id="myDIV" style=" background-color: #c4e2ed;
+    font-family: sans-serif;
+    color:#9900cc;
+    width: 220px;
+    height:280px;
+     border: 15px solid #f08080;
+    padding: 25px;
+    margin: 25px;
+    margin-top:3px;
+    margin-left:20px;">
+
+<marquee direction="up">
+
+ <li><b>Days:-</b><br>
+       Monday 2/1/2018:Chocolate Day<br>
+       Tuseday 3/1/2018:Saree Day<br>
+       Wednesday 4/1/2018:Mismatch Day </li><br>
+<li><b>FYBsc Computer Science </b><br>
+      Examination Dates :-<br>
+      Monday:5/3/2018 to Saturday:9/3/2018</li><br>
+ <li><b>TYbsc Computer Science </b><br>
+       Examination Dates :-<br>
+      Monday:5/3/2018 to Saturday:9/3/2018</li><br>
+
+</marquee></div>
+
+
+
+<table style="position:absolute;left:30px;top:800px;">
+<th colspan="4">Toppers (2016-17)</th>
+<tr>
+<td>Ranks</td>
+<td>FY</td>
+<td>SY</td>
+<td>TY</td>
+<tr>
+<td> First </td>
+<td>Amit Shirke</td>
+
+<td>Pratibha Kore</td>
+
+<td>Shubhangi Patil</td>
+</tr>
+<tr>
+<td> Second </td>
+<td>Sujay Pawar</td>
+
+<td>Rucha Shinde</td>
+
+<td>Pratiksha Pawar</td>
+</tr>
+<tr>
+<td> Third </td>
+<td>Neeta Patil</td>
+
+<td>Sanika Nimbalkar</td>
+
+<td>Aditya Salunkhe</td>
+</tr>
+</table>
+<br><br>
+
+<center>
+<p id="rcorners3" style="color:white;
+                                     background-color:#ff7d66;
+                                     position:absolute;top:1070px;left:380px;padding:20px;width:66%;
+                                     font-family: Arial, Helvetica, sans-serif;"><b>Future Plans</b>
+
+<marquee direction="right" style="padding:10px">
+Software Developement<br>
+Web Designing<br>
+Web Security<br>
+</marquee></p></center>
+
+
+<center>
+<p style="margin-left:50px; width:90%;font-family: Arial, Helvetica, sans-serif;" id="rcorners1">
+<b>students say</b>
+<marquee>
+<br>This text is styled with some of the text formatting properties.
+<br> The heading uses the text-align, text-transform, and color properties.
+<br>The paragraph is indented, aligned, and the space between characters is specified.
+ <br>The underline is removed from this colored.<br><i>Komal Salunkhe</i>
+</marquee></p>
+</center><br><br>
+
+
+<div class="footer">
+  <p style="color:white;">copyright</p>
+</div>
+
+</body>
+</html>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
